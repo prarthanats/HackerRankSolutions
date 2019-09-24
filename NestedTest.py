@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Sep 24 11:00:27 2019
-
-@author: Dell
-"""
-
 marksheet=[]
 scorelist=[]
 c= []
@@ -22,7 +15,6 @@ if __name__ == '__main__':
         for items in list1:
             if (items[1]) <= (minimum[1]):
                 minimum = items
-
             else:
                 zz.append(items)
         zzk = []
@@ -38,15 +30,17 @@ if __name__ == '__main__':
                     print(j)
                 else:
                     pass
-             
-5
-Prashant
-52.22
-Kush
-52.223
-Kant
-52.222
-Kanti
-52.2222
-Harshit
-52.22222
+
+        
+#Input to File
+#5
+#Prashant
+#52.22
+#Kush
+#52.223
+#Kant
+#52.222
+#Kanti
+#52.2222
+#Harshit
+#52.22222
